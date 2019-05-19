@@ -48,7 +48,7 @@ end
 
 def add_s(array)
   array.collect do |i|
-    #if array is the second index just leave as is and return value
+    #if array is the second element leave as is and return value
     if array[1] == i
       i
       #else add 's' to the end of the element
